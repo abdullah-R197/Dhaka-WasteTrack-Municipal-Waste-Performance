@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for Dhaka WasteTrack — an interactive municipal waste management and public accountability dashboard prototype for Team MacroMind (CPD Climate Week 2026). Covers 11 functional navigation modules, a dual-mode interactive SVG schematic and Dhaka map with route simulation, interactive WtE 4-gate viability checklist, chain-of-custody batch tracking, ward/contractor accountability tables, citizen complaint simulation, and a Guided Walkthrough Presentation Mode for competition judges.",
+  "updatedAt":  "2026-10-28T19:43:41.233716986Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

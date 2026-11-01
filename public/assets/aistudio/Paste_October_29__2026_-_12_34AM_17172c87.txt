@@ -1,0 +1,1071 @@
+PROJECT PROMPT: Build “Dhaka WasteTrack”
+
+An Interactive Municipal Waste Management & Public Accountability Platform for CPD Climate Week 2026
+
+1. Project Background and Purpose
+
+Build a professional, visually polished, responsive, and interactive website prototype called Dhaka WasteTrack — Municipal Waste Operations & Public Dashboard.
+
+This website is a demonstration prototype for our team, MacroMind, participating in the CPD Climate Week 2026 Climate Policy Case Competition in Bangladesh.
+
+Our case topic is:
+
+“Urban Waste Management in Bangladesh: Towards an Enforceable Municipal Waste Management Plan.”
+
+The purpose of the website is to visually demonstrate how Dhaka and other major cities in Bangladesh could use an integrated digital platform to monitor municipal waste collection, transportation, weighing, treatment, resource recovery, and final disposal.
+
+The website must directly address these two requirements from our case competition:
+
+Requirement C — Digital Platform
+
+“Propose a digital platform linking collection routes, vehicles, transfer stations, weighbridges, treatment facilities, and disposal sites.”
+
+Requirement D — Public Municipal Dashboard
+
+“Recommend a public municipal dashboard showing service performance by ward and contractor.”
+
+The website should make these recommendations tangible. Judges should be able to open the website, click different components, explore the information, change filters, inspect charts, track a demonstration vehicle, and understand how the proposed system would work in practice.
+
+This is a demonstration prototype using clearly labelled synthetic data, not a live government system. Do not claim to have access to actual Dhaka city corporation databases, GPS feeds, official vehicle information, or live municipal records.
+
+2. Primary Objectives
+
+The completed website must demonstrate the following:
+
+1. An integrated digital platform connecting collection routes, waste collection vehicles, transfer stations, weighbridges, recycling and treatment facilities, and final disposal sites.
+2. A public dashboard showing waste-management performance by ward and contractor.
+3. A transparent method for monitoring collection operations and identifying missed collections.
+4. A waste-tracking workflow from the original collection point to the final destination.
+5. Measurable key performance indicators (KPIs) for waste management.
+6. A complaint-monitoring interface that allows users to explore how service issues could be reported and resolved.
+7. A waste-management model that prioritises segregation, recycling, organic waste treatment, and resource recovery before considering Waste-to-Energy (WtE).
+8. A visually convincing demonstration suitable for a university-level policy case competition.
+
+The most important principle throughout the website is:
+
+“Reform First. Recover Value. Use WtE Only When Viable.”
+
+Do not present Waste-to-Energy as a substitute for basic waste-management reform.
+
+---
+
+3. Target Users
+
+Design the website primarily for the following audiences:
+
+- Judges and evaluators of the CPD Climate Policy Case Competition.
+- City corporation officials and municipal waste-management planners.
+- Environmental regulators and relevant public authorities.
+- Waste collection contractors and facility operators.
+- Citizens who want to inspect municipal waste-management performance.
+- Researchers and development-policy professionals.
+
+The interface should be intuitive enough for a nontechnical judge to understand without any training.
+
+Use clear labels, short explanations, meaningful charts, interactive visual elements, and logical navigation.
+
+---
+
+4. Overall Design and Visual Identity
+
+Create a modern civic-technology dashboard with the visual quality of a professional municipal management platform.
+
+Brand identity
+
+Product name: Dhaka WasteTrack
+
+Brand subtitle: Municipal Waste Operations & Public Accountability
+
+Organisation label: MacroMind | CPD Climate Week 2026 Case Competition
+
+Tagline:
+
+Track Waste. Measure Performance. Build a Circular City.
+
+Visual style
+
+Use a clean, modern, data-focused interface.
+
+Recommended colours:
+
+- Dark forest green: primary brand colour.
+- Emerald green: recycling, resource recovery, and successful operations.
+- Deep navy: navigation, headers, and institutional elements.
+- White: primary content background.
+- Light grey: dashboard panels and card backgrounds.
+- Amber: warnings, delays, and pending actions.
+- Red: critical operational alerts or missed collections.
+- Blue: transportation, data systems, and monitoring.
+
+Use colour consistently. Do not rely only on colour to communicate status; accompany coloured elements with clear text labels and icons.
+
+Layout
+
+The desktop interface should use:
+
+- A fixed or sticky sidebar for navigation.
+- A top header with page title, date, notifications, and a demo-data indicator.
+- A spacious main content area.
+- Responsive KPI cards.
+- Interactive charts and tables.
+- Contextual detail panels that open when users click a vehicle, facility, ward, contractor, or complaint.
+
+The mobile interface should use a collapsible navigation menu, stacked cards, horizontally scrollable tables where necessary, and touch-friendly buttons.
+
+Use a professional sans-serif font, consistent spacing, subtle shadows, rounded cards, and restrained animations.
+
+Avoid excessive gradients, unnecessary decorative graphics, giant text, or an overly futuristic design.
+
+The website should look like a credible municipal technology platform rather than a marketing landing page.
+
+---
+
+5. Website Architecture and Navigation
+
+Create the following navigation sections:
+
+1. Overview Dashboard
+2. Operations Map
+3. Waste Tracking
+4. Collection Vehicles
+5. Facilities & Weighbridges
+6. Ward Performance
+7. Contractor Performance
+8. Complaints & Service Issues
+9. Waste Recovery & Treatment
+10. Roadmap & Policy
+11. About This Prototype
+
+Each navigation item must lead to a working page or a clearly implemented section.
+
+Do not create navigation links that lead to blank pages or nonfunctional buttons.
+
+Keep the main dashboard and operations map easily accessible from every page.
+
+Include a “Presentation Mode” option that hides unnecessary navigation elements and displays important content cleanly for demonstration to competition judges.
+
+---
+
+6. Module One: Overview Dashboard
+
+Create an executive dashboard that gives an immediate overview of the proposed municipal waste-management system.
+
+At the top, display:
+
+Dhaka WasteTrack — Municipal Waste Performance
+
+Subtitle:
+
+“An integrated digital model for monitoring collection, transportation, recovery, treatment, and disposal.”
+
+Include a visible status label:
+
+DEMO ENVIRONMENT — ALL DATA IS ILLUSTRATIVE
+
+KPI cards
+
+Display the following KPIs:
+
+1. Total Waste Recorded
+2. Collection Completion Rate
+3. On-Time Collection Rate
+4. Source Segregation Rate
+5. Material Recovery Rate
+6. Complaints Resolved
+7. Active Demonstration Vehicles
+8. Facilities Reporting Data
+
+Each KPI card must show:
+
+- The indicator name.
+- A sample value.
+- A short explanation of what the indicator measures.
+- A trend or comparison, but only when the underlying demonstration data supports it.
+- An information icon that explains the KPI when clicked or hovered over.
+
+All displayed values must come from a central synthetic dataset so that charts, tables, cards, and filters remain consistent.
+
+Do not invent statistics and present them as verified government data.
+
+Overview charts
+
+Include:
+
+A. Waste Collection Trend
+
+A line or bar chart showing recorded waste collected over a selectable demonstration period.
+
+B. Waste Composition
+
+A pie or donut chart showing illustrative categories:
+
+- Organic waste.
+- Recyclable materials.
+- Residual waste.
+- Hazardous waste.
+
+Clearly label the chart as illustrative. Do not assume a specific national composition percentage without a verified source.
+
+C. Waste Destination Breakdown
+
+Show the illustrative quantities of waste directed to:
+
+- Material Recovery Facilities.
+- Organic Waste Treatment Facilities.
+- Residual Disposal Sites.
+- Conditional Waste-to-Energy Facilities.
+
+The WtE category must be shown as a conditional pathway for suitable residual waste, not the default destination for all waste.
+
+D. Service Alerts
+
+Include sample operational alerts such as:
+
+- A collection route running behind schedule.
+- A vehicle missing a scheduled collection.
+- A weighbridge record awaiting verification.
+- A facility reporting a capacity issue.
+- A citizen complaint awaiting resolution.
+
+Use badges such as “On Schedule,” “Delayed,” “Under Review,” and “Resolved.”
+
+Clicking an alert should open a relevant detail panel or filtered page.
+
+---
+
+7. Module Two: Interactive Operations Map
+
+This is one of the most important modules. Give it a prominent position in the website.
+
+Its purpose is to demonstrate Requirement C of the case competition.
+
+Create an interactive map of a schematic demonstration area in Dhaka, Bangladesh.
+
+Use a real map library such as Leaflet with an appropriate map-tile provider if supported by the platform. If an external map or map API is unavailable, create a polished schematic map instead.
+
+Do not require paid API keys for the prototype.
+
+Any hypothetical coordinates, routes, facility locations, or geographic placements must be labelled as demonstration locations. Do not falsely associate invented locations with actual operating municipal facilities.
+
+Map elements
+
+Represent the following entities with distinct, understandable markers:
+
+- Waste collection points.
+- Collection vehicles.
+- Transfer stations.
+- Weighbridges.
+- Material Recovery Facilities (MRFs).
+- Organic waste treatment or composting facilities.
+- Residual waste disposal sites.
+- A conditional WtE facility.
+
+Use an easily understood legend that explains each marker.
+
+Interactive route visualisation
+
+Draw illustrative routes connecting the operational stages.
+
+A representative flow should be:
+
+Collection Point → Collection Vehicle → Transfer Station / Weighbridge → Appropriate Recovery or Treatment Facility → Final Disposal of Residuals
+
+The platform must visually distinguish recyclables, organic waste, hazardous waste, and residual waste.
+
+Do not imply that hazardous waste can safely follow an ordinary municipal waste route. Give it a separate collection and safe-treatment pathway.
+
+Map filters
+
+Allow users to switch the visibility of:
+
+- Collection routes.
+- Vehicles.
+- Facilities.
+- Transfer stations.
+- Weighbridges.
+- Treatment sites.
+- Disposal sites.
+- Delayed routes.
+- Completed routes.
+
+Add a ward filter and a vehicle-status filter.
+
+Clicking map markers
+
+When the user clicks a marker, open a detail card showing the relevant synthetic information.
+
+Vehicle example:
+
+- Vehicle ID: DEMO-TRK-012.
+- Assigned ward: Ward 12 (illustrative).
+- Route: R-12.
+- Status: On Schedule / Delayed.
+- Waste category: Organic / Recyclable / Residual.
+- Last recorded weight.
+- Last recorded checkpoint.
+- Next planned stop.
+- Last record timestamp.
+- Assigned contractor.
+
+Facility example:
+
+- Demonstration facility ID.
+- Facility type.
+- Illustrative receiving capacity.
+- Quantity received.
+- Current operational status.
+- Last updated timestamp.
+
+All fields must clearly indicate that they represent synthetic demonstration data.
+
+Simulated vehicle movement
+
+If feasible, add a “Simulate Route” button.
+
+When clicked, highlight a vehicle's route and advance it through its demonstration checkpoints.
+
+The simulation should display an explanatory timeline:
+
+1. Waste collected.
+2. Vehicle arrives at transfer station.
+3. Waste is weighed.
+4. Waste is transferred to the appropriate facility.
+5. Destination record is completed.
+
+This should be a client-side simulation, not a claim of live GPS tracking.
+
+Include Play, Pause, Reset, and Step Forward controls if supported.
+
+The user must be able to reset the simulation and run it again.
+
+---
+
+8. Module Three: Waste Tracking
+
+Create a page called Waste Tracking & Chain of Custody.
+
+The purpose is to demonstrate how a municipal authority could track a batch of waste through the entire operational chain.
+
+Waste batch identification
+
+Every demonstration batch should have a unique ID, for example:
+
+DEMO-BATCH-2026-001
+
+This identifier must be visibly marked as synthetic.
+
+Search and filters
+
+Allow users to search or filter by:
+
+- Batch ID.
+- Date.
+- Ward.
+- Collection vehicle.
+- Waste category.
+- Contractor.
+- Facility.
+- Final destination.
+- Operational status.
+
+Batch detail view
+
+Show the following fields where applicable:
+
+- Batch ID.
+- Collection source.
+- Waste category.
+- Collection date and time.
+- Vehicle ID.
+- Recorded gross weight.
+- Recorded tare weight.
+- Net waste weight.
+- Weighbridge record.
+- Transfer station.
+- Treatment or recovery facility.
+- Recovered material quantity.
+- Residual quantity.
+- Final disposal destination.
+- Record verification status.
+
+If weights are supplied in the synthetic dataset, use consistent units.
+
+For example:
+
+Net Waste Weight = Gross Weight − Tare Weight
+
+Only use this calculation where both measurements exist.
+
+If a record is missing, show “Pending Verification” rather than automatically inventing a value.
+
+Chain-of-custody timeline
+
+Display a vertical or horizontal timeline showing the journey of each selected batch.
+
+Each stage should include:
+
+- Stage name.
+- Timestamp.
+- Responsible operator or system.
+- Recorded quantity where applicable.
+- Verification status.
+
+Use statuses such as:
+
+- Recorded.
+- Received.
+- Weighed.
+- Transferred.
+- Processed.
+- Recovered.
+- Residual Disposal Completed.
+- Pending Verification.
+
+The timeline must be interactive and easy to understand.
+
+Include a small explanatory panel titled:
+
+“Why Waste Tracking Matters”
+
+Explain that traceable records help identify missing collections, unexplained weight differences, unrecorded transfers, and potential reporting inconsistencies.
+
+Do not claim that the prototype actually detects fraud or verifies any real municipal transaction.
+
+---
+
+9. Module Four: Public Municipal Dashboard
+
+This module directly addresses Requirement D.
+
+Create a public-facing dashboard that demonstrates service performance by ward and contractor.
+
+It must be usable without logging in.
+
+Main filters
+
+Add the following working filters:
+
+- Ward.
+- Contractor.
+- Date range.
+- Waste category.
+- Collection status.
+- Service issue type.
+
+Changing a filter must update the relevant KPI cards, charts, tables, and summaries using the central synthetic dataset.
+
+Ward performance table
+
+Display columns such as:
+
+- Ward number.
+- Assigned contractor.
+- Scheduled collections.
+- Completed collections.
+- Missed collections.
+- On-time collection rate.
+- Recorded waste quantity.
+- Source segregation rate.
+- Complaint count.
+- Complaint resolution rate.
+- Performance status.
+
+Selecting a ward should open a detail page or side panel.
+
+The panel should show:
+
+- Ward summary.
+- Recent collection records.
+- Vehicle assignments.
+- Waste category breakdown.
+- Service issues.
+- Complaints and their status.
+- Relevant performance indicators.
+
+Contractor performance scorecard
+
+Create a comparable contractor table showing:
+
+- Contractor name or demonstration ID.
+- Assigned wards.
+- Scheduled tasks.
+- Completed tasks.
+- On-time performance.
+- Missed collections.
+- Complaints received.
+- Complaints resolved.
+- Record completeness.
+- Overall performance status.
+
+Use synthetic contractor IDs such as DEMO-CONT-01.
+
+Do not invent real company names or claim that a real contractor has poor performance.
+
+Service performance charts
+
+Include:
+
+1. On-time collection by ward.
+2. Missed collections by ward.
+3. Contractor performance comparison.
+4. Complaint resolution trend.
+5. Source segregation and material recovery trends.
+
+Make the charts interactive where possible.
+
+Allow users to select a ward or contractor and see corresponding records.
+
+Performance definitions
+
+Provide an “Indicator Definitions” panel with formulas.
+
+Examples:
+
+Collection Completion Rate
+
+Completed scheduled collection tasks ÷ Total scheduled collection tasks × 100.
+
+On-Time Collection Rate
+
+Collections completed on time ÷ Total scheduled collection tasks × 100.
+
+Missed Collection Rate
+
+Missed scheduled collection tasks ÷ Total scheduled collection tasks × 100.
+
+Complaint Resolution Rate
+
+Resolved complaints ÷ Total complaints received × 100.
+
+Material Recovery Rate
+
+Recovered material weight ÷ Recorded total incoming waste weight × 100.
+
+For the recovery rate, clearly identify the denominator, reporting period, and whether the calculation covers all incoming waste or only eligible waste.
+
+Do not calculate a KPI if the necessary data is missing. Show “Insufficient Data” rather than misleading users.
+
+If a KPI has an illustrative target, label it “Proposed Target” and do not present it as an official statutory requirement.
+
+---
+
+10. Module Five: Collection Vehicles
+
+Create a page showing all demonstration collection vehicles.
+
+Vehicle table
+
+Include:
+
+- Vehicle ID.
+- Assigned ward.
+- Route ID.
+- Contractor.
+- Waste category.
+- Operational status.
+- Last checkpoint.
+- Last recorded timestamp.
+- Collection completion.
+- Next scheduled stop.
+
+Add filters for ward, contractor, route, and vehicle status.
+
+Vehicle detail page
+
+When the user selects a vehicle, show:
+
+- A route map or route schematic.
+- Assigned collection points.
+- Completed and remaining stops.
+- Weighbridge records.
+- Waste batch details.
+- Destination facility.
+- Operational alerts.
+- A demonstration activity timeline.
+
+Include a “View on Map” button that opens the same vehicle on the Operations Map.
+
+Do not represent simulated movement as actual vehicle location.
+
+---
+
+11. Module Six: Facilities and Weighbridges
+
+Create a page listing all demonstration facilities and operational checkpoints.
+
+Use separate tabs for:
+
+1. Transfer Stations.
+2. Weighbridges.
+3. Material Recovery Facilities.
+4. Organic Waste Treatment Facilities.
+5. Residual Disposal Sites.
+6. Conditional WtE Facilities.
+
+Facility list
+
+Each facility entry should show:
+
+- Facility ID.
+- Facility type.
+- Illustrative location.
+- Receiving capacity, if provided.
+- Recorded quantity received.
+- Utilisation rate, if sufficient data exists.
+- Current demonstration status.
+- Latest record timestamp.
+
+Weighbridge records
+
+Include a searchable table with:
+
+- Record ID.
+- Vehicle ID.
+- Timestamp.
+- Gross weight.
+- Tare weight.
+- Net weight.
+- Destination facility.
+- Verification status.
+
+If the system lacks data needed to calculate a net weight or utilisation rate, display a clear missing-data label.
+
+Operational integrity
+
+Provide alerts for illustrative situations such as:
+
+- Missing weighbridge records.
+- Inconsistent batch weights.
+- Unconfirmed destination.
+- Duplicate demonstration records.
+- Facility capacity approaching its configured demonstration threshold.
+
+These alerts must be based on the synthetic dataset and simple transparent rules.
+
+Do not label an operational anomaly as fraud or misconduct without evidence.
+
+---
+
+12. Module Seven: Complaints and Service Issues
+
+Create a page called Citizen Complaints & Service Accountability.
+
+This page demonstrates how citizens could report municipal service problems and how the responsible authority could track their resolution.
+
+Complaint categories
+
+- Missed waste collection.
+- Illegal dumping.
+- Segregated waste mixed together.
+- Delayed collection.
+- Overflowing waste container.
+- Other waste-management issues.
+
+Complaint list
+
+Display:
+
+- Complaint ID.
+- Ward.
+- Complaint category.
+- Reported date.
+- Assigned contractor or responsible unit.
+- Status.
+- Resolution time, if resolved.
+- Verification status.
+
+Use statuses:
+
+- Received.
+- Assigned.
+- In Progress.
+- Resolved.
+- Reopened.
+
+Complaint-detail view
+
+When a complaint is selected, display:
+
+- The issue description.
+- Relevant ward and route.
+- Responsible service unit.
+- Action history.
+- Current status.
+- Resolution record, if available.
+
+Demonstration reporting form
+
+Add a functional prototype form that lets a user create a synthetic complaint.
+
+The form should accept:
+
+- Ward.
+- Issue type.
+- Short description.
+- Optional demonstration reference ID.
+
+After submission, show a generated demonstration complaint ID and add the new record to the local application state.
+
+Clearly state that the form is a simulation and does not send complaints to a real city corporation.
+
+Do not request sensitive personal information.
+
+Resolution performance
+
+Display:
+
+- Complaints received.
+- Complaints resolved.
+- Complaints awaiting action.
+- Resolution rate.
+- Average resolution time, if the dataset is sufficient.
+
+A 72-hour resolution period may be offered as a configurable proposed service target, but never represent it as an official legal requirement unless verified.
+
+---
+
+13. Module Eight: Waste Recovery and Treatment
+
+Create a dedicated page explaining how the digital platform supports different waste-treatment pathways.
+
+Use a visual process diagram.
+
+Source Segregation → Separate Collection → Waste Weighing and Recording → Recovery / Treatment → Safe Residual Disposal
+
+Show the following categories:
+
+A. Organic Waste
+
+Explain that appropriate organic waste can be routed to composting or anaerobic digestion, depending on its quality and the capability of the facility.
+
+Track:
+
+- Quantity received.
+- Quantity processed.
+- Product or recovered output, where recorded.
+- Residual quantity.
+- Facility status.
+
+B. Recyclable Waste
+
+Show how paper, plastics, metals, glass, and other suitable materials can be separated and directed to Material Recovery Facilities or other appropriate recovery channels.
+
+Track:
+
+- Quantity collected.
+- Quantity sorted.
+- Quantity recovered for recycling.
+- Residual material.
+- Destination record.
+
+C. Hazardous Waste
+
+Provide a separate pathway for suitable hazardous household waste.
+
+Explain the importance of segregated collection, secure temporary storage, safe handling, and appropriate treatment.
+
+Do not route hazardous waste through a normal composting process or an ordinary municipal waste pathway.
+
+D. Residual Waste
+
+Explain that residual waste is the material remaining after appropriate recovery and treatment options have been considered.
+
+Show how it is recorded and directed to an appropriate final destination.
+
+E. Waste-to-Energy
+
+Present WtE as a conditional option.
+
+The interface should explain that major WtE investment should only proceed when its suitability has been demonstrated.
+
+Use four decision gates:
+
+1. Technical: Is there reliable, suitable feedstock in sufficient quantity and quality?
+2. Financial: Can the project cover operating costs, debt service, and a reasonable return under the proposed financing structure?
+3. Environmental and Social: Are required approvals, emission controls, safe residual management, and worker protections adequately addressed?
+4. Governance: Are procurement, contracts, reporting, and independent oversight sufficiently transparent?
+
+Provide two possible outcomes:
+
+- All required gates passed: Proceed to the relevant approval and investment process.
+- One or more gates not passed: Defer major WtE expansion and strengthen material recovery, composting, and other suitable treatment options.
+
+Do not label any proposed facility as viable without supporting evidence.
+
+---
+
+14. Module Nine: Roadmap and Policy Integration
+
+Create a visually clear timeline representing the proposed 2027–2036 municipal waste-management roadmap.
+
+Phase 1: Initial Actions — 2027
+
+Demonstrate:
+
+- Baseline data development.
+- Ward-level pilot planning.
+- Initial source-segregation measures.
+- Basic collection and weighbridge recordkeeping.
+- Definition of performance indicators.
+
+Phase 2: System Development — 2028–2029
+
+Demonstrate:
+
+- Improved collection scheduling.
+- Wider use of source segregation.
+- Digital tracking.
+- Facility and contractor recordkeeping.
+- Initial resource recovery and organic-waste treatment systems.
+
+Phase 3: Scale-Up — 2030–2031
+
+Demonstrate:
+
+- Expansion of successful ward-level systems.
+- Improved reporting and audit arrangements.
+- Additional recovery and treatment capacity.
+- Evidence-based assessment of possible WtE investment.
+
+Phase 4: Consolidation and Replication — 2032–2036
+
+Demonstrate:
+
+- Continued performance monitoring.
+- Long-term operational sustainability.
+- Better integration of recovery and treatment systems.
+- Adaptation of successful approaches to Chattogram and other major cities.
+
+These phases are proposed implementation arrangements based on the case requirements; they are not claims that the activities have already occurred.
+
+Policy integration
+
+Explain the relationship between the municipal plan and the following concepts:
+
+- Circular economy.
+- Waste valorisation.
+- Pollution prevention.
+- Green employment.
+- Reduced landfill dependence.
+- Extended Producer Responsibility (EPR).
+
+Use concise descriptions and show how the dashboard can help measure progress against the plan.
+
+---
+
+15. Module Ten: About This Prototype
+
+Create a short page explaining the purpose and limitations of the website.
+
+Include:
+
+Project: Dhaka WasteTrack — Municipal Waste Operations & Public Accountability.
+
+Team: MacroMind.
+
+Competition: CPD Climate Week 2026 Climate Policy Case Competition.
+
+Purpose: Demonstrate a proposed digital platform for linking collection routes, vehicles, transfer stations, weighbridges, treatment facilities, disposal sites, and public municipal performance indicators.
+
+Important data disclaimer
+
+Display the following disclaimer prominently:
+
+“This website is an academic demonstration prototype developed by Team MacroMind for a climate-policy case competition. All displayed operational records, vehicle information, contractor identifiers, facility records, route simulations, and dashboard values are synthetic unless explicitly identified as sourced information. This prototype does not represent a live municipal management system and is not connected to official city corporation databases, actual GPS feeds, or real complaint-processing services.”
+
+Include a short explanation of how a production system could later integrate verified municipal data, vehicle tracking devices, weighbridge systems, facility records, and authorised data sources.
+
+Do not claim that these integrations already exist.
+
+---
+
+16. Synthetic Demonstration Dataset
+
+Build one coherent synthetic dataset for the entire website.
+
+All modules must use the same central data model so that changing a filter on one page or selecting an entity shows consistent information elsewhere.
+
+Create enough demonstration records to make the website realistic but manageable.
+
+Recommended initial dataset:
+
+- 8 illustrative wards.
+- 4 synthetic collection contractors.
+- 12 synthetic collection vehicles.
+- 5 collection routes.
+- 2 illustrative transfer stations.
+- 2 illustrative weighbridges.
+- 2 Material Recovery Facilities.
+- 2 organic-waste treatment facilities.
+- 2 residual disposal sites.
+- 1 conditional WtE facility.
+- 40–60 synthetic waste-tracking batches.
+- 30–40 synthetic collection tasks.
+- 15–25 synthetic complaints.
+- 30–50 weighbridge and facility-event records.
+
+These are prototype design quantities, not claims about the actual number of municipal facilities or vehicles in Dhaka.
+
+Use transparent synthetic identifiers, such as:
+
+- WARD-DEMO-01.
+- DEMO-CONT-01.
+- DEMO-TRK-001.
+- ROUTE-DEMO-01.
+- DEMO-WS-01.
+- DEMO-FACILITY-01.
+- DEMO-BATCH-2026-001.
+- DEMO-COMP-001.
+
+Use a consistent date range and internally consistent records.
+
+For example, a vehicle cannot be shown at two different places at the same time in a simulated journey. A waste batch cannot be recorded as having arrived at a facility before it was collected.
+
+Demonstration data should be generated locally or embedded in the application.
+
+Do not invent precise current municipal statistics or present fictional records as real observations.
+
+---
+
+17. Functional Requirements
+
+The website must be genuinely interactive rather than a collection of static mockup images.
+
+Implement, wherever supported:
+
+1. Functional navigation between all pages.
+2. Working search and filtering.
+3. Interactive charts and data tables.
+4. Clickable map markers and route details.
+5. Working vehicle and waste-batch detail views.
+6. A functioning route simulation.
+7. Functional complaint submission using synthetic records.
+8. Live updates of dashboard elements when filters change.
+9. Clear status indicators.
+10. Reset buttons for demonstrations and filters.
+11. Tooltips or information panels explaining important KPIs.
+12. A presentation mode.
+13. Responsive mobile navigation.
+14. Clear loading, empty-state, and missing-data messages.
+15. An obvious control to return to the overview dashboard.
+
+A functional prototype may use client-side state and local synthetic data. It does not need a real backend, real-time tracking, or production database.
+
+If a feature cannot be fully implemented in the chosen platform, provide a working visual simulation rather than a dead button.
+
+Do not add an administrative login system unless the website builder can implement it meaningfully. The public dashboard should remain accessible without authentication.
+
+---
+
+18. Suggested Technical Implementation
+
+Use the technology stack best supported by the website-building platform.
+
+Preferred approach:
+
+- React or Next.js for a component-based interface.
+- TypeScript if supported.
+- Tailwind CSS or a consistent component styling system.
+- Recharts, Chart.js, or another dependable chart library.
+- Leaflet or another suitable map library when available.
+- Local JSON or TypeScript data files for synthetic records.
+- Client-side state management for filters, route simulation, and demonstration forms.
+
+If the platform produces HTML, CSS, and JavaScript instead, that is acceptable as long as all required interactions work.
+
+The website should not depend on paid API keys.
+
+Avoid requiring a database, private server, or external authentication service just to run the demonstration.
+
+Use a central data model so that charts, map details, vehicle records, complaints, and facility records remain consistent.
+
+If the builder can generate a downloadable source project, include the complete source code and simple deployment instructions.
+
+---
+
+19. Accessibility, Usability, and Performance
+
+Ensure the site is:
+
+- Responsive on desktop, tablet, and mobile devices.
+- Usable with a keyboard.
+- Readable with sufficient colour contrast.
+- Designed with clear headings and labels.
+- Equipped with accessible labels for forms and controls.
+- Designed with sensible table overflow on smaller screens.
+- Fast to load.
+- Free of unnecessary animation.
+- Free of broken links and console errors where testing tools are available.
+
+Provide an understandable fallback if the map cannot load.
+
+The user must still be able to explore routes and facilities through a list or schematic view.
+
+---
+
+20. Presentation-Ready Features
+
+Because the website will be demonstrated to competition judges, add the following features:
+
+A. Demo Mode
+
+A prominent button that resets the website to a predictable demonstration state.
+
+B. Sample Journey
+
+Provide a “Run Sample Waste Journey” button that automatically demonstrates one coherent waste batch from collection to weighing, treatment or recovery, and final residual handling.
+
+Use illustrative values and mark them as synthetic.
+
+C. Public Transparency View
+
+Allow judges to inspect performance indicators without logging in.
+
+D. Clear Explanations
+
+Include short explanatory notes explaining why each dashboard metric matters for municipal accountability.
+
+E. QR-Compatible Landing Page
+
+Make the homepage clean and mobile-friendly so that a judge can open it easily through a QR code on our PowerPoint presentation.
+
+F. Evidence and Assumptions
+
+Provide a small reference-and-assumptions section where the team can distinguish:
+
+- Information taken from the official case file.
+- Information from separately verified public sources.
+- Proposed policy recommendations.
+- Synthetic demonstration data.
+
+Do not fabricate citations or claim that a proposed target has been officially adopted.
+
+---
+
+21. Final Deliverables
+
+Build and deliver:
+
+1. A complete working website prototype.
+2. All required pages and interactive modules.
+3. A coherent synthetic dataset.
+4. Responsive desktop and mobile layouts.
+5. A working interactive operations map or a clear schematic fallback.
+6. An interactive public municipal dashboard.
+7. A functioning synthetic waste-tracking demonstration.
+8. A working complaint-reporting simulation.
+9. A presentation mode suitable for competition judges.
+10. A prominent demo-data disclaimer.
+11. A deployment-ready website or a clear path to publish it.
+12. A public URL if the chosen platform supports publishing.
+13. A short explanation of how to test the main website interactions.
+
+Prioritise a fully working, coherent prototype over adding many incomplete features.
+
+The result must clearly communicate that the system improves municipal accountability through linked operational records, measurable service performance, waste traceability, and evidence-based decision-making.
+
+The website's central message should remain:
+
+“Reform First. Recover Value. Use WtE Only When Viable.”
+
+Build the complete website now rather than responding with only a design proposal or code snippets. Make reasonable implementation decisions wherever details are not specified, without inventing real municipal data or claiming live integrations.
